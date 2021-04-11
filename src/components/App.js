@@ -7,10 +7,10 @@ const App = ({slides}) => {
   const [count,setCount] = useState(0);
 
   return (
-    <>
+    <div>
       <Text slides={slides} count={count} />
       <Button slides={slides} count={count} setCount={setCount} />
-    </>
+    </div>
   )
 }
 
